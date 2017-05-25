@@ -1,0 +1,56 @@
+body{
+    background-color: RGB(230,230,230)
+}
+
+.roxo{
+  color: rgb(173, 134, 181);
+}
+.verde{
+  color: rgb(91, 199, 152);
+}
+
+h3{
+  color: rgb(91, 199, 152);
+}
+
+section{
+  min-height: 300px;
+  padding-bottom: 20px;
+}
+
+section h3{  
+  padding-bottom: 20px;
+}
+
+a:hover{
+  border-bottom: solid 2px rgb(173, 134, 181);
+}
+
+.active{
+  border-bottom: solid 2px rgb(173, 134, 181);
+}
+
+footer{
+  padding-top: 30px;
+  height: 300px;
+  background-color: rgb(91, 199, 152)
+}
+
+footer h2{
+  color: white;
+}
+
+.novabar{
+  -webkit-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  background-color: RGB(210,210,210);
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+  height: 55px;
+  -webkit-box-shadow: 0 0 0 2px rgba(100, 100, 100, 0.25);
+          box-shadow: 0 0 0 2px rgba(100, 100, 100, 0.25);
+}
